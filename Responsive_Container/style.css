@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alfa Slab One", cursive;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background: #a8a8a8;
+}
+
+.boxonia_story_container {
+  position: relative;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 5%;
+}
+
+.boxonia_story_container .card {
+  width: 820px;
+  position: relative;
+  height: 400px;
+  background: #116feb;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  margin-top: 5%;
+  border-radius: 20px;
+}
+.boxonia_story_container .card .imgBx {
+  position: relative;
+  width: 610px;
+  height: 100px;
+  top: -60px;
+  left: 20px;
+  box-shadow: 0 5px 20px rbga (0, 0, 0, 1.2);
+}
+
+.boxonia_story_container .card .imgBx h2 {
+  width: 100%;
+  text-align: center;
+  background-color: #f6b62b;
+  height: 85px;
+  padding-top: 12px;
+  margin-right: 70px;
+  margin-left: 80px;
+  font-size: 50px;
+  align-items: center;
+}
+
+/* .imgBx:hover h2{
+	transform: scale(1.1);
+} */
+
+.boxonia_story_container .card .imgBx p {
+  text-align: center;
+  color: #ffffff;
+  padding: 32px;
+  margin-left: 100px;
+
+  font-size: 17px;
+}
